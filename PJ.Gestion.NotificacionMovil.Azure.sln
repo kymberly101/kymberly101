@@ -1,0 +1,116 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1169
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PJ.Gestion.NotificacionMovil.Entidades", "PJ.Gestion.NotificacionMovil.Entidades\PJ.Gestion.NotificacionMovil.Entidades.csproj", "{E67C96C1-1D4A-4363-AB9B-6137E243BB71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PJ.Gestion.NotificacionMovil.Servicios", "PJ.Gestion.NotificacionMovil.Servicios\PJ.Gestion.NotificacionMovil.Servicios.csproj", "{44D827A8-CE07-475B-9536-49209EF7FE6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PJ.Gestion.NotificacionMovil.Servicios.Tests", "PJ.Gestion.NotificacionMovil.Servicios.Tests\PJ.Gestion.NotificacionMovil.Servicios.Tests.csproj", "{80407389-3FD7-4BAF-8C62-52E240487EFC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Azure", "Azure", "{EBE391F3-E9B1-4F35-B31B-CE75D1132A79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Local", "Local", "{070C40E6-AAF0-4C62-AFC1-82AF0A994619}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{60CAE1D6-3A3F-4348-8E96-906236D59251}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PJ.Gestion.NotificacionMovil.WebJobSincronizacion", "PJ.Gestion.NotificacionMovil.WebJobSincronizacion\PJ.Gestion.NotificacionMovil.WebJobSincronizacion.csproj", "{888B0179-53E8-40DC-8B13-6EEF5F6E241B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PJ.Gestion.NotificacionMovil.WebJobUsuarios", "PJ.Gestion.NotificacionMovil.WebJobUsuarios\PJ.Gestion.NotificacionMovil.WebJobUsuarios.csproj", "{02AC716A-1377-4082-8D63-EF9D22EDF4C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PJ.Gestion.NotificacionMovil.Interfaces", "PJ.Gestion.NotificacionMovil.Interfaces\PJ.Gestion.NotificacionMovil.Interfaces.csproj", "{290B4231-7E10-4C8D-B922-70F39D1D78CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{71C524B8-3426-4FB0-9CB2-0411B96197A8}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PJ.Gestion.NotificacionMovil.WebUsuarios.Tests", "PJ.Gestion.NotificacionMovil.WebUsuarios.Tests\PJ.Gestion.NotificacionMovil.WebUsuarios.Tests.csproj", "{48409868-1A31-40B7-AEE8-12D79AB3FBC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E67C96C1-1D4A-4363-AB9B-6137E243BB71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E67C96C1-1D4A-4363-AB9B-6137E243BB71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E67C96C1-1D4A-4363-AB9B-6137E243BB71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E67C96C1-1D4A-4363-AB9B-6137E243BB71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44D827A8-CE07-475B-9536-49209EF7FE6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44D827A8-CE07-475B-9536-49209EF7FE6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44D827A8-CE07-475B-9536-49209EF7FE6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44D827A8-CE07-475B-9536-49209EF7FE6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80407389-3FD7-4BAF-8C62-52E240487EFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80407389-3FD7-4BAF-8C62-52E240487EFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80407389-3FD7-4BAF-8C62-52E240487EFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80407389-3FD7-4BAF-8C62-52E240487EFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{888B0179-53E8-40DC-8B13-6EEF5F6E241B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{888B0179-53E8-40DC-8B13-6EEF5F6E241B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{888B0179-53E8-40DC-8B13-6EEF5F6E241B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{888B0179-53E8-40DC-8B13-6EEF5F6E241B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02AC716A-1377-4082-8D63-EF9D22EDF4C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02AC716A-1377-4082-8D63-EF9D22EDF4C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02AC716A-1377-4082-8D63-EF9D22EDF4C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02AC716A-1377-4082-8D63-EF9D22EDF4C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{290B4231-7E10-4C8D-B922-70F39D1D78CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{290B4231-7E10-4C8D-B922-70F39D1D78CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{290B4231-7E10-4C8D-B922-70F39D1D78CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{290B4231-7E10-4C8D-B922-70F39D1D78CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48409868-1A31-40B7-AEE8-12D79AB3FBC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48409868-1A31-40B7-AEE8-12D79AB3FBC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48409868-1A31-40B7-AEE8-12D79AB3FBC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48409868-1A31-40B7-AEE8-12D79AB3FBC9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E67C96C1-1D4A-4363-AB9B-6137E243BB71} = {070C40E6-AAF0-4C62-AFC1-82AF0A994619}
+		{44D827A8-CE07-475B-9536-49209EF7FE6F} = {EBE391F3-E9B1-4F35-B31B-CE75D1132A79}
+		{80407389-3FD7-4BAF-8C62-52E240487EFC} = {60CAE1D6-3A3F-4348-8E96-906236D59251}
+		{888B0179-53E8-40DC-8B13-6EEF5F6E241B} = {EBE391F3-E9B1-4F35-B31B-CE75D1132A79}
+		{02AC716A-1377-4082-8D63-EF9D22EDF4C2} = {EBE391F3-E9B1-4F35-B31B-CE75D1132A79}
+		{290B4231-7E10-4C8D-B922-70F39D1D78CB} = {070C40E6-AAF0-4C62-AFC1-82AF0A994619}
+		{71C524B8-3426-4FB0-9CB2-0411B96197A8} = {60CAE1D6-3A3F-4348-8E96-906236D59251}
+		{48409868-1A31-40B7-AEE8-12D79AB3FBC9} = {60CAE1D6-3A3F-4348-8E96-906236D59251}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1F009C8-DFD1-4B24-97BA-34F7A6E94990}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://siagpj.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = PJ.Gestion.NotificacionMovil.Entidades\\PJ.Gestion.NotificacionMovil.Entidades.csproj
+		SccProjectTopLevelParentUniqueName1 = PJ.Gestion.NotificacionMovil.Azure.sln
+		SccProjectName1 = PJ.Gestion.NotificacionMovil.Entidades
+		SccLocalPath1 = PJ.Gestion.NotificacionMovil.Entidades
+		SccProjectUniqueName2 = PJ.Gestion.NotificacionMovil.Servicios\\PJ.Gestion.NotificacionMovil.Servicios.csproj
+		SccProjectTopLevelParentUniqueName2 = PJ.Gestion.NotificacionMovil.Azure.sln
+		SccProjectName2 = PJ.Gestion.NotificacionMovil.Servicios
+		SccLocalPath2 = PJ.Gestion.NotificacionMovil.Servicios
+		SccProjectUniqueName3 = PJ.Gestion.NotificacionMovil.Servicios.Tests\\PJ.Gestion.NotificacionMovil.Servicios.Tests.csproj
+		SccProjectTopLevelParentUniqueName3 = PJ.Gestion.NotificacionMovil.Azure.sln
+		SccProjectName3 = PJ.Gestion.NotificacionMovil.Servicios.Tests
+		SccLocalPath3 = PJ.Gestion.NotificacionMovil.Servicios.Tests
+		SccProjectUniqueName4 = PJ.Gestion.NotificacionMovil.WebJobSincronizacion\\PJ.Gestion.NotificacionMovil.WebJobSincronizacion.csproj
+		SccProjectTopLevelParentUniqueName4 = PJ.Gestion.NotificacionMovil.Azure.sln
+		SccProjectName4 = PJ.Gestion.NotificacionMovil.WebJobSincronizacion
+		SccLocalPath4 = PJ.Gestion.NotificacionMovil.WebJobSincronizacion
+		SccProjectUniqueName5 = PJ.Gestion.NotificacionMovil.WebJobUsuarios\\PJ.Gestion.NotificacionMovil.WebJobUsuarios.csproj
+		SccProjectTopLevelParentUniqueName5 = PJ.Gestion.NotificacionMovil.Azure.sln
+		SccProjectName5 = PJ.Gestion.NotificacionMovil.WebJobUsuarios
+		SccLocalPath5 = PJ.Gestion.NotificacionMovil.WebJobUsuarios
+		SccProjectUniqueName6 = PJ.Gestion.NotificacionMovil.Interfaces\\PJ.Gestion.NotificacionMovil.Interfaces.csproj
+		SccProjectTopLevelParentUniqueName6 = PJ.Gestion.NotificacionMovil.Azure.sln
+		SccProjectName6 = PJ.Gestion.NotificacionMovil.Interfaces
+		SccLocalPath6 = PJ.Gestion.NotificacionMovil.Interfaces
+		SccProjectUniqueName7 = PJ.Gestion.NotificacionMovil.WebUsuarios.Tests\\PJ.Gestion.NotificacionMovil.WebUsuarios.Tests.csproj
+		SccProjectTopLevelParentUniqueName7 = PJ.Gestion.NotificacionMovil.Azure.sln
+		SccProjectName7 = PJ.Gestion.NotificacionMovil.WebUsuarios.Tests
+		SccLocalPath7 = PJ.Gestion.NotificacionMovil.WebUsuarios.Tests
+	EndGlobalSection
+EndGlobal
